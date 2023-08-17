@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.tueste {
+    font-family: PPEditorialNew-Ultralight;
+    padding: 0;
+    margin: 0;
+    background-image: url("../IMAGENES/PPT03-TUESTE-identidad_page-0003.jpg");
+    background-position: center;
+    background-size:cover;
+    height: 450px; }
+.container-fluid{
+    justify-content: center!important;
+}
+.navbar-brand {
+    margin: 10px; 
+    }
+.logo {
+    width: 75px;
+    margin: 20px;}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 255)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
+.nav-item {
+    transition: all 2s; 
+    :hover {
+        background-color: #C1582F;
+        transform: scale(1.1, 1.1); }}
+.nav-link {
+    margin: 40px;
+    padding: 15px;
+    font-size: medium; }    
+.productos {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    text-align:center;
+    justify-content: space-around;
+}
+.cadaProducto {
+    margin: 15px;
+    padding: 15px;
+    background-color: #C3B092 ;
+    width: 300px;
+}
+.agregar {
+    margin: 3px;
+    padding: 7px;
+    background-color: #C1582F;
+    color: white;
+    font-size: medium;
+    border: #C1582F;
+}
+.quitar{
+    margin: 3px;
+    padding: 7px;
+    background-color: #7C5F34;
+    color: white;
+    font-size: medium;
+    border: #7C5F34;
+}
+.cantidad {
+    margin: 3px;
+    padding: 7px;
+    width: 50px;
+    background-color: #EEE9E3;
+    color: #1D1D1B;
+    font-size: medium;
+    border: #EEE9E3;
+}
+.ticket{
+    display: flex;
+    background-color: #C1582F;
+    font-size: small;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.terminar{
+    width: 150px;
+    margin: 5px;
+    padding: 10px;
+    background-color:#1D1D1B;
+    color: white;
+    font-size: medium;
+    border:#1D1D1B;
+    
+}
+.cadaProductoPedido{
+    background-color: #EEE9E3;
+    margin: 2px;
+    padding: 2px;
+    
+}
+
+
+
