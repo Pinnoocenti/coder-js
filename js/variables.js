@@ -61,7 +61,7 @@ link.forEach((nombre) => {
 
 
 logoTueste.classList = "navbar-brand"
-imgLogo.src= (currentPage === 'index.html'? "." :  "..") + "/IMAGENES/Tueste-Isologo-02.png"
+imgLogo.src= (currentPage === 'index.html'? "." :  "..") + "/imagenes/Tueste-Isologo-02.png"
 hamburguesa.classList = "navbar-toggler navbar-light navbar-toggler-icon navbar-light"
 hamburguesa.ariaExpanded = "false"
 hamburguesa.ariaLabel = "Toggle navigation"
