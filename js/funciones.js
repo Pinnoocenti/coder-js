@@ -12,7 +12,7 @@ Array.from(quitar).forEach(element => {
 function agregarAlCarrito (e){
     
     const nombreProducto = e.target.dataset.nombre
-    const carrito = JSON.parse(localStorage.getItem('Carrito')) 
+    let carrito = JSON.parse(localStorage.getItem('Carrito')) 
     
     if(!carrito){
         carrito = {}
