@@ -47,14 +47,14 @@ const currentPage = currentLocation[currentLocation.length - 1]
 
 uls.innerHTML = `
     <li class="nav-item">
-        <a class="nav-link text-light" href="${currentPage === 'index.html'? './index.html' : '../index.html'}">NOSOTROS</a>
+        <a class="nav-link text-light" href="${currentPage === 'index.html' || currentPage === ''? './index.html' : '../index.html'}">NOSOTROS</a>
     </li>
     `
 
 link.forEach((nombre) => {
     uls.innerHTML += `
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="${currentPage === 'index.html' ? './pages/' + nombre.href  :'./' + nombre.href }">${nombre.link}</a>
+                        <a class="nav-link text-light" href="${currentPage === 'index.html' || currentPage === '' ? './pages/' + nombre.href  :'./' + nombre.href }">${nombre.link}</a>
                     </li>
     `
 })
