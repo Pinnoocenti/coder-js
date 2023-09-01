@@ -340,9 +340,9 @@
         margin: 20px 0px 0px 0px;
         padding: 0; }
     .cadaProductoPedido{
-        height: 70px;
+        width: 100%;
     }
     .terminar{
-        height: 70px;
+        width: 100%;
     }
 }
