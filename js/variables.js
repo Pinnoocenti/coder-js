@@ -26,20 +26,15 @@ const link = [
         href: 'pedido.html'
     },
     {
-        page: 'reservas',
-        link: 'RESERVAS',
-        href: 'reservas.html'
+        page: 'contacto',
+        link: 'CONTACTO',
+        href: 'contacto.html'
     },
     {
         page: 'ubicación',
         link: 'UBICACION',
         href: 'ubicacion.html'
     },
-    {
-        page: 'menu',
-        link: 'MENÚ',
-        href: 'menu.html'
-    }
 ]
 
 const currentLocation = window.location.href.split('/')
@@ -65,11 +60,12 @@ imgLogo.src= (currentPage === 'index.html'? "." :  "..") + "/imagenes/Tueste-Iso
 hamburguesa.classList = "navbar-toggler navbar-light navbar-toggler-icon navbar-light"
 hamburguesa.ariaExpanded = "false"
 hamburguesa.ariaLabel = "Toggle navigation"
-//hamburguesa.ariaControls = 'navbarSupportedContent'  NO FUNCIONA 
 hamburguesa.setAttribute('data-bs-target', "#navbarSupportedContent")
 hamburguesa.setAttribute('data-bs-toggle', 'collapse')
 imgLogo.classList = "logo"
 uls.classList = "navbar-nav mx-auto mb-2 mb-lg-0"
+
+
 
 body.prepend(header)
 header.prepend(navBar)
@@ -80,10 +76,6 @@ links.appendChild(uls)
 containerNav.appendChild(hamburguesa)
 logoTueste.appendChild(imgLogo)
 
-class Producto{
-    constructor(nombre, precio){
-        this.nombre = nombre
-        this.precio = precio
-    }
-}
+
+
 
