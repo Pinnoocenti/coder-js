@@ -42,8 +42,7 @@ class Usuario{
             showConfirmButton: true,
             timer: 5000
         })
-        window.location.href = './contacto.html' //redirecciona mal 
-
+        window.location.href = './contacto.html' 
     }
 }
 

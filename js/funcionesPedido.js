@@ -101,7 +101,6 @@ function quitarDesdeCarrito(e){
     const total = d.getElementById('totalCompra')
     quitarDelCarrito(nombre,carrito)
     let totalParseado = parseInt(total.innerHTML) 
-    //hacer un if para cuando ya no haya mas que no siga restando
     totalParseado -= precio
     total.innerHTML = totalParseado
 
