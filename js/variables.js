@@ -11,7 +11,7 @@ const links = d.createElement('div')
 const uls = d.createElement('ul')
 const logoTueste = d.createElement('a')
 const imgLogo = d.createElement('img')
-const hamburguesa = d.createElement('button')
+//const hamburguesa = d.createElement('button')
 
 
 header.classList = "tueste"
@@ -57,11 +57,11 @@ link.forEach((nombre) => {
 
 logoTueste.classList = "navbar-brand"
 imgLogo.src= (currentPage === 'index.html'? "." :  "..") + "/imagenes/Tueste-Isologo-02.png"
-hamburguesa.classList = "navbar-toggler navbar-light navbar-toggler-icon navbar-light"
-hamburguesa.ariaExpanded = "false"
-hamburguesa.ariaLabel = "Toggle navigation"
-hamburguesa.setAttribute('data-bs-target', "#navbarSupportedContent")
-hamburguesa.setAttribute('data-bs-toggle', 'collapse')
+//hamburguesa.classList = "navbar-toggler navbar-light navbar-toggler-icon navbar-light"
+//hamburguesa.ariaExpanded = "false"
+//hamburguesa.ariaLabel = "Toggle navigation"
+//hamburguesa.setAttribute('data-bs-target', "#navbarSupportedContent")
+//hamburguesa.setAttribute('data-bs-toggle', 'collapse')
 imgLogo.classList = "logo"
 uls.classList = "navbar-nav mx-auto menu-header"
 
@@ -73,7 +73,7 @@ navBar.appendChild(containerNav)
 containerNav.appendChild(logoTueste)
 containerNav.appendChild(links)
 links.appendChild(uls)
-containerNav.appendChild(hamburguesa)
+//containerNav.appendChild(hamburguesa)
 logoTueste.appendChild(imgLogo)
 
 

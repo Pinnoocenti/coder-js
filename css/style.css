@@ -116,6 +116,7 @@
     align-items: center;
 }
 .terminar{
+    display: flex;
     width: 500px;
     margin: 10px;
     padding: 10px;
@@ -125,6 +126,7 @@
     border:#1D1D1B; 
 }
 .cadaProductoPedido{
+    display: flex;
     background-color: #C3B092;
     margin: 15px;
     padding: 10px;
