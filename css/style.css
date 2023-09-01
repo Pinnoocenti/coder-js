@@ -109,13 +109,14 @@
     border: #EEE9E3;
 }
 .ticket{
+    display: flex;
     background-color: #C1582F;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .terminar{
-    width: 600px;
+    width: 500px;
     margin: 10px;
     padding: 10px;
     background-color:#1D1D1B;
@@ -341,8 +342,10 @@
         padding: 0; }
     .cadaProductoPedido{
         width: 100%;
+        height: 100%;
     }
     .terminar{
         width: 100%;
+        height: 100%;
     }
 }
