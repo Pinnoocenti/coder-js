@@ -63,7 +63,7 @@ hamburguesa.ariaLabel = "Toggle navigation"
 hamburguesa.setAttribute('data-bs-target', "#navbarSupportedContent")
 hamburguesa.setAttribute('data-bs-toggle', 'collapse')
 imgLogo.classList = "logo"
-uls.classList = "navbar-nav mx-auto mb-2 mb-lg-0"
+uls.classList = "navbar-nav mx-auto menu-header"
 
 
 

@@ -47,7 +47,7 @@ terminar.addEventListener('click', async (e) => {
         timer: 6000
     })
     localStorage.setItem('Carrito', JSON.stringify({}))
-    window.location.href = '/'
+    window.location.href = './' 
 })
 
 

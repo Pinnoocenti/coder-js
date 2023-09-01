@@ -92,6 +92,11 @@ function quitarDesdeCarrito(e){
     e.preventDefault()
     let carrito = JSON.parse(localStorage.getItem('Carrito'))
     const nombre = e.target.dataset.nombre
+
+    if (!carrito[nombre]) {
+        return;
+    }
+
     const precio = parseInt(e.target.dataset.precio)
     const total = d.getElementById('totalCompra')
     quitarDelCarrito(nombre,carrito)

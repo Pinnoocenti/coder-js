@@ -16,8 +16,11 @@
     padding-top: 150px;
 }
 .navbar-brand {
-    margin: 50px; 
+    margin: 50px 50px 0px 50px; 
     }
+.menu-header {
+    margin-top: 50px;
+}
 .logo {
     width: 75px;
     margin: 15px;}
